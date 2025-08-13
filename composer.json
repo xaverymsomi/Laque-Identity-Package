@@ -1,0 +1,22 @@
+{
+  "name": "vicent/laque-identity",
+  "description": "NIDA & KYC helpers for Tanzania: phone normalization, TIN validation, KYC scoring, provider strategy with caching and rate limiting.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Laque\\Identity\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "psr/simple-cache": "^3.0",
+    "psr/http-client": "^1.0",
+    "psr/http-message": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

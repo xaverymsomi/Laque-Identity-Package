@@ -1,0 +1,31 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+coverage/
+clover.xml
+
+# Build artifacts
+/build/
+/dist/
+*.phar
+
+# Logs & temp
+*.log
+.cache/
+tmp/
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Code style / static analysis caches
+.php-cs-fixer.cache
+
+# Node (if docs/examples use it)
+node_modules/
