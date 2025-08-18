@@ -6,4 +6,4 @@
 - TIN & Phone validators for Tanzania
 - KYC scoring helper
 
-See also: [mrz.md](mrz.md), [nida.md](nida.md), [kyc.md](kyc.md), [laravel.md](laravel.md), [security.md](security.md).
+See also: [mrz.md](mrz.md), [nida.md](nida.md), [kyc.md](kyc.md), [laravel.md](laravel.md), [security.md](../security.md).
