@@ -5,19 +5,23 @@
          colors="true"
          cacheDirectory=".phpunit.cache">
 
+  <!-- Tell PHPUnit what code is yours (removes the warning) -->
+  <source>
+    <include>
+      <directory suffix=".php">src</directory>
+    </include>
+  </source>
+
   <testsuites>
     <testsuite name="Laque Identity Test Suite">
       <directory>tests</directory>
     </testsuite>
   </testsuites>
 
+  <!-- Coverage reporting only (no include here) -->
   <coverage>
-    <include>
-      <directory suffix=".php">src</directory>
-    </include>
     <report>
       <clover outputFile="coverage/clover.xml"/>
     </report>
   </coverage>
-
 </phpunit>
